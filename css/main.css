@@ -1,0 +1,240 @@
+#login-form, #register-form {
+	margin-top: 5%;
+	background-color: #ffffff;
+	border-radius: 15px;
+	opacity: 0.9;
+	padding: 20px;
+}
+
+
+
+.row {
+    margin: 0;
+}
+body{
+    background-image: url('images/slika2.jpg');
+    background-size: cover;
+}
+.content:before{
+    
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.content {
+    overflow: hidden;
+}
+
+#login-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .7);
+    padding: 15px;
+    text-align: center;
+    background-color: #689F38;
+    color: snow;
+}
+
+#login-footer a {
+	color: snow;
+	text-decoration: underline;
+}
+
+.error {
+    padding: 10px;
+    background-color: #EF5350;
+    color: snow;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.success {
+    padding: 10px;
+    background-color: #55A556;
+    color: snow;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.navbar {
+	margin: 0;
+	background-color: rgb(159, 56, 125);
+	border-radius: 0px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand {
+	color: snow;
+    font-size: 1.45em;
+}
+
+.navbar-brand:hover {
+	color: snow;
+}
+
+.navbar-nav>li>a {
+	color: snow;
+    font-weight: 450;
+    font-size: 1.1em;
+}
+
+.navbar-nav>li>a:hover>.glyphicon {
+	color: rgb(168, 48, 104);
+    background-color: snow;
+    cursor: pointer;
+}
+
+.navbar-nav>li>a:hover {
+	color: rgb(168, 48, 104);
+    background-color: snow;
+    cursor: pointer;
+}
+
+.glyphicon {
+    color: snow;
+}
+
+.glyphicon-th {
+    color: #009688;
+}
+
+
+
+
+.glyphicon-remove {
+    color: rgb(244, 54, 149);
+    cursor: pointer;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+}
+.form-style-6{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #f8ecc3;
+    border-radius: 15px 50px 30px;
+}
+
+.form-style-6 h2{
+    background: #f042e1;
+    padding: 20px 0;
+    font-size: 160%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.form-style-6 h3{
+    padding: 20px 0;
+    font-size: 130%;
+    text-align: center;
+    color: #e45cab;
+    margin: -16px -16px 16px -16px;
+}
+.form-style-6 input{
+    opacity: 0.8;
+    
+}
+.form-style-6 select{
+    opacity: 0.8;
+    
+}
+.form-style-6 textarea{
+    opacity: 0.8;
+    
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="password"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+  
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px  #f04242;
+    padding: 3%;
+  
+    border: 1px solid  #f04242;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background:  #f04276;
+    border-bottom: 2px solid  #f04276;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+    font-size: 120%;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background:  #831a60;
+}
+

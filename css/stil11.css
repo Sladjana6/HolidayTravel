@@ -1,0 +1,100 @@
+body {
+
+background: #e6e6e6;
+color: #99003d;
+font-family: "Verdana";
+}
+
+#rcorners4 {
+    border-radius: 15px 50px 30px 5px;
+    background: #ccc;
+    padding: 20px; 
+    width: 1000px;
+    height: 150px; 
+}
+
+ 
+ .sadrzaj {
+ 	text-align: center;
+ 	width: 70%;
+ 	margin: auto;
+ }
+
+ h3 {
+ 	text-shadow: 3px 2px #aaaaaa;
+ 	text-decoration: underline;
+ 	text-decoration-style: wavy;
+ }
+
+ h4 {
+ 	text-decoration: underline;
+ 	text-decoration-style: double;
+ }
+
+ #poslovnice {
+  width: 1100px;
+ }
+
+ #poslovnica1 {
+  width: 350px;
+  text-align: justify;
+ }
+
+ #poslovnica2 {
+  width: 350px;
+  text-align: justify;
+ }
+
+ #poslovnica3 {
+  width: 350px;
+  text-align: justify;
+ }
+
+ footer {
+      background-color: rgb(159, 56, 125);
+      color: #fff;
+      padding: 5px;
+      
+    
+  }
+
+  .korisnik{
+  
+    margin-right: 0px;
+    color: snow;
+    font-size: 13px;
+  }
+
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color:rgb(159, 56, 125);
+      border: 0;
+      font-size: 15px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: snow !important;
+  }
+  .navbar-nav li a:hover {
+      color: #f8ecc3 !important;
+  }
+  .navbar-nav li.active a {
+      color: #f8ecc3 !important;
+      background-color: #29292c !important;
+  }
+
+  #logout{
+    margin-left: 50%;
+  }
+  .tabela{
+    margin-left:25%;
+}
+
+.tabela td{
+    padding:0 15px 0 15px;
+}
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }

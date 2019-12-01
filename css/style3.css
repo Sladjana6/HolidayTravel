@@ -1,0 +1,152 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;    
+}
+.header{
+background-image: url('img/slika54.jpg');
+background-size:cover;
+height: 90vh;
+background-position:center;
+border-bottom:2px solid black; 
+}
+h1{
+padding-top: 10px;
+text-align: center;
+color:rgb(94, 8, 72);
+font-family:Cambria;
+font-size: 48pt; 
+text-shadow: 4px 2px #111010;
+width: 300px;
+float: left;
+margin-left: 7%;
+}
+.meni{
+width: 100%;
+}
+#navigacija{
+float: left;
+word-spacing: 14pt;
+padding-bottom: 50px;
+padding-top: 10px;
+margin-left: 26%;    
+}
+#kartice{
+display: inline;
+font-family:Cambria;
+font-size: 20pt; 
+text-decoration:inherit;
+}
+#kartice a{
+color:rgb(94, 8, 72);
+text-shadow: none;
+text-decoration: none;
+transition: color 1s;
+}
+#kartice a:hover{
+color:#a7537d;
+}
+ body{ 
+background-color: rgb(212, 179, 205);
+} 
+#prva {
+width:100px;
+height: 100px;
+margin-left: 30px;
+}
+#druga{
+width: 90px;
+height: 100px;
+margin-left: 95px;
+}
+#treca{
+width: 140px;
+height: 100px;
+margin-left: 130px;
+}
+#footer{
+background-color: rgb(159, 56, 125);
+border-top: 2px solid black;
+padding-top: 20px;
+}
+#footer-text{
+padding-top: 1px;
+padding-left: 30px;
+font-size: 14pt;
+font-family: Cambria;
+line-height: 30px;
+color:#190505;
+}
+#footer-text1{
+padding-top: 1px;
+padding-left: 40px;
+font-size: 14pt;
+font-family: Cambria;
+text-align: center;
+line-height: 30px;
+color:#190505;
+    }
+
+.footer-ikone{
+float: right;
+padding-top: 85px;
+padding-right: 20px;
+}
+#ikona{
+opacity: 1.0;
+}
+#ikona:hover{
+opacity: 0.6;
+}
+.ponuda{
+width:80%;
+margin-left: 10%;
+background-color:rgb(212, 179, 205);
+border-left: none;
+border-right: none;
+}
+.ponuda{
+   margin-left: 7%;
+    margin-right: 5%;
+}
+#vrsta{
+font-family: sans-serif;
+font-size: 12pt;
+color:black;
+width:180px;
+height: 30px;
+background-color: #aa568e;
+border: #5a0940 solid;
+border-radius: 12px;
+margin-left: 5%;
+margin-top: 25px;
+}
+#cena{
+font-family: sans-serif;
+font-size: 12pt;
+color:black;
+width:180px;
+height: 30px;
+background-color: #aa568e;
+border: #5a0940 solid;
+border-radius: 12px;
+float:right;
+margin-right: 10px;
+margin-top: -120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
